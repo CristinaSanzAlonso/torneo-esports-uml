@@ -1,5 +1,13 @@
 Sistema de gestión de torneos de eSports
 
+Autor:
+Cristina Sanz Alonso
+CristinaSanzAlonso(GitHub)
+
+Descripción del proyecto:
+Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación.
+Enlace al repositorio: 
+
 1.	Análisis del problema y requisitos del sistema
 
 •¿Quiénes son los actores que interactúan con el sistema?
