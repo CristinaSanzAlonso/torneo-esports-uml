@@ -6,9 +6,9 @@ CristinaSanzAlonso(GitHub)
 
 Descripción del proyecto:
 Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación.
-Enlace al repositorio: 
+Enlace al repositorio: https://github.com/CristinaSanzAlonso/torneo-esports-uml.git
 
-1.	Análisis del problema y requisitos del sistema
+Análisis del problema y requisitos del sistema, identificación de los casos de uso y elaboración del diagrama (los diagramas están en la carpeta diagrams):
 
 •¿Quiénes son los actores que interactúan con el sistema?
 En este enunciado podemos identificar diferentes actores, principalmente se encuentra el gestor de torneos que es el que más acciones puede realizar. 
@@ -47,3 +47,7 @@ Siguiendo el diagrama de clases realizado, podemos ver que hay cinco entidades:
 Torneo y Partida tienen una relación de 1 a muchos, es decir en un torneo puede hacer una o varias partidas, sin embargo una partida de un torneo solo tiene cabida en un torneo en concreto.
 Torneo y Equipo tienen una relación de muchos a muchos por ello se ha creado un tabla intermedia que gestiones esa relación convirtiéndola en dos relaciones de 1 a muchos.
 Equipo y Jugador tienen una relación de 1 a muchos, es decir en un equipo puede haber uno o varios jugadores, mientras que un jugador solo pertenece a un equipo.
+
+Identificación de clases y relaciones: el diagrmaa de clases también se encuenra dentro de la carpeta diagrams. 
+
+CONCLUSIONES: 
