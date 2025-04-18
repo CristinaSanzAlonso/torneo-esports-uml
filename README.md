@@ -6,6 +6,7 @@ CristinaSanzAlonso(GitHub)
 
 Descripción del proyecto:
 Este proyecto implementa un sistema de gestión de torneos de eSports utilizando UML para el modelado y Java para la implementación.
+Actualmente está organizado el proyecto con los directorios y las clases pero no están implementado ni probado.
 Enlace al repositorio: https://github.com/CristinaSanzAlonso/torneo-esports-uml.git
 
 Análisis del problema y requisitos del sistema, identificación de los casos de uso y elaboración del diagrama (los diagramas están en la carpeta diagrams):
@@ -38,7 +39,7 @@ Por último, el usuario o jugador podrá llevar a cabo las siguientes acciones:
   - comprobar la clasificación de equipos
 
 •¿Cómo se relacionan entre sí las entidades del sistema?
-Siguiendo el diagrama de clases realizado, podemos ver que hay cinco entidades:
+Siguiendo el diagrama de clases realizado, podemos ver que hay cinco clases:
   - Partida
   - Torneo
   - Equipo
@@ -47,7 +48,14 @@ Siguiendo el diagrama de clases realizado, podemos ver que hay cinco entidades:
 Torneo y Partida tienen una relación de 1 a muchos, es decir en un torneo puede hacer una o varias partidas, sin embargo una partida de un torneo solo tiene cabida en un torneo en concreto.
 Torneo y Equipo tienen una relación de muchos a muchos por ello se ha creado un tabla intermedia que gestiones esa relación convirtiéndola en dos relaciones de 1 a muchos.
 Equipo y Jugador tienen una relación de 1 a muchos, es decir en un equipo puede haber uno o varios jugadores, mientras que un jugador solo pertenece a un equipo.
+Análisis del tipo de relación que hay entre las clases:
+Las relaciones entre clases en un diagrama pueden dar de tres formas diferentes: asociación (asociación normal, agregación o composición), herencia o dependencia. En el caso de las clases Partida,
+Torneo, Equipo, EquipoEnTorneo y Jugador, existen diferentes tipos de relaciones:
+  - Torneo y Partida: la relación es de composición porque no puede haber una partida si no hay un torneo.
+  - Equipo y Jugador: la relación es de agregación ya que jugador es una parte del equipo (siendo el equipo el todo) y además pueden existir de manera independiente.
+  - Torneo, EquipoEnTorneo y Equipo: tiene una relación de asociación sencilla, es decir clases que se relacionan entre sí sin depender entre ellas. 
 
-Identificación de clases y relaciones: el diagrmaa de clases también se encuenra dentro de la carpeta diagrams. 
+Identificación de clases y relaciones: el diagrama de clases también se encuentra dentro de la carpeta diagrams. 
 
 CONCLUSIONES: 
+Esta actividad ha sido muy útil para entender cómo se modela un proyecto con UML y como en función de las relaciones que existen entre las clases se implementa de diferente manera.
